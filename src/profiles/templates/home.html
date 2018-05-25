@@ -1,13 +1,11 @@
-{% load staticfiles %}
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Title of document</title>
-	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-</head>
-<body>
+{% block two %}
+<h1> hello </h1>
+{% endblock %}
+
+{% block content %}
 <h1>Hello World!</h1> 
-</body>
-</html>
+{% endblock %}
+
 
